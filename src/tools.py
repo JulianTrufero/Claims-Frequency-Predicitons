@@ -1,3 +1,5 @@
+#CATHEGORIZER FUNCTIONS
+
 def vehpower_gr(x):
     """
     ARG: A number
