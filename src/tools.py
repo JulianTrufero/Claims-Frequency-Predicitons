@@ -1,5 +1,5 @@
-#CATHEGORIZER FUNCTIONS
-
+#CATHEGORIZING FUNCTIONS
+#Variable: Vehicle Power
 def vehpower_gr(x):
     """
     ARG: A number
@@ -11,6 +11,8 @@ def vehpower_gr(x):
         return x_
     else:
         return x
+
+#Variable: Vehicle Age
 
 def vehage_gr(x):
     """
@@ -27,6 +29,8 @@ def vehage_gr(x):
         return x_
     else:
         return 3
+
+#Variable: Driver Age
 
 def drivage_gr(x):
     """
@@ -57,3 +61,32 @@ def drivage_gr(x):
 
     else:
         return 8
+
+#Variable: Bonus Malus
+
+def bonusmalus_gr(x):
+    """
+    ARG: A number
+    Returns: Assings a class (from 1 to 7) if x belongs to the specified ranges
+    """
+    if x in range(50, 61):
+        x_ = 1
+        return x_
+    elif x in range(61,71):
+        x_ = 2
+        return x_
+    elif x in range(71,81):
+        x_ = 3
+        return x_
+    elif x in range(81,91):
+        x_ = 4
+        return x_
+    elif x in range(91,101):
+        x_ = 5
+        return x_
+    elif x in range(101,151):
+        x_ = 6
+        return x_
+    else:
+        x_ = 7
+        return x_
