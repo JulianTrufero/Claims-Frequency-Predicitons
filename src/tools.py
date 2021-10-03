@@ -90,3 +90,15 @@ def bonusmalus_gr(x):
     else:
         x_ = 7
         return x_
+    
+#CLAIMS
+
+def claims_(x):
+    """
+    arg: A claim count
+    returns:if x is bigger than four, returns a four, otherwise, returns the same value
+    """
+    if x > 4 :
+        return 4
+    else: 
+        return x
